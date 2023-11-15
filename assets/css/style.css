@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "lato";
+    src: url("../fonts/Lato-Regular.ttf");
+
+    font-family: "merriweather";
+    src: url("../fonts/Merriweather-Regular.ttf");
+}
+
+:root{
+    --headline: #black;
+    --head-bg-color-grey: grey;
+    --subline: merriwather;
+    --text-color-black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "lato", Arial, Helvetica, sans-serif;
+    color: #202020;
+}
+
+body {
+    width: 100vw;
+
+}
+
+/* header */
+
+nav {
+    background-color: var(--head-bg-color-grey);
+    padding: 1em 3em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    gap: 1em;
+}
+
+/* main */
+
+main {
+    font-family: var(--subline);
+}
+
+.eins {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.eins, .zwei, .drei, p, h2 {
+    padding-left: 5rem;
+    align-items: center;
+}
+
+.schwarz, .weiss {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+.ping {
+    width: 30%;
+}
+
+.zwei {
+    display: flex;
+}
+
+.drei {
+    display: flex;
+}
+
+.vier, .fuenf {
+    text-align: center;
+}
+/*
+section {
+    border: 1px solid cyan;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+h2 {
+    color: var(--text-color-black);
+    font-size: 24px;
+}
+
+p {
+    font-size: 14px;
+}
+/*
+img {
+    width: 60%;
+    display: flex;
+}
+*/
+/* ----------------footer---------------- */
+
+footer {
+    background-color: grey;
+}
+
+ul {
+    display: flex;
+    
+
+}
